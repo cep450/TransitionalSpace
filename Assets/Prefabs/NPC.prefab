@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8996932449934055172}
   - component: {fileID: 8996932449934055171}
+  - component: {fileID: 4194989180189982358}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -48,6 +49,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2
+--- !u!114 &4194989180189982358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996932449934055173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0898c375d38a7464590534ab249ae6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8996932450182146980
 GameObject:
   m_ObjectHideFlags: 0

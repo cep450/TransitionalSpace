@@ -131,9 +131,10 @@ GameObject:
   m_Component:
   - component: {fileID: 482937482}
   - component: {fileID: 482937483}
+  - component: {fileID: 482937484}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,6 +167,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 471bada09f652e942a7d9c08a517fad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &482937484
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482937481}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +354,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4194989180189982358, guid: b938511d21484f042be584e704aa2cc7,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 482937481}
+    - target: {fileID: 4194989180189982358, guid: b938511d21484f042be584e704aa2cc7,
+        type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 482937482}
     - target: {fileID: 8996932449934055172, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: m_LocalPosition.x
