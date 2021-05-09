@@ -7,10 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     //code initially copied from flatgame project
 
-
-    static float MAX_POS_X = 21f;
-    static float MAX_POS_Y = 22.5f;
-    static float SPEED = 0.05f;
+    static float SPEED = 3f;
     static float SPEED_DIAG = SPEED * Mathf.Sin(Mathf.PI / 4) + 0.002f;
 
     static Vector3 faceright = new Vector3(1, 1, 1);
@@ -23,15 +20,37 @@ public class PlayerMovement : MonoBehaviour
     bool up, down, left, right = false;
     float effectivespeed;
 
+    Rigidbody2D myRigidBody2D;
+
+    Vector2 moveVector;
+
+    Quaternion noRotation; 
+
+    void Start() {
+
+        myRigidBody2D = gameObject.GetComponent<Rigidbody2D>();
+
+        noRotation = transform.rotation; 
+
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+
+        //don't rotate.... wtf
+        transform.rotation = noRotation;
 
         //only check key once
         up = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W);
         down = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
         left = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
         right = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
+
+        //if no keys are pressed we don't need to do any of this 
+        if(!(up || down || left || right)) {
+            return;
+        }
 
         //same speed when diagonal
         if((up || down ) && (left || right)) {
@@ -40,19 +59,24 @@ public class PlayerMovement : MonoBehaviour
             effectivespeed = SPEED;
         }
 
-        //prevent from going out of bounds
-        if(up && transform.position.y < MAX_POS_Y) {
-            transform.Translate(0f, effectivespeed, 0f);
+        //reset vector
+        moveVector = Vector2.zero;
+
+        if(up) {
+            moveVector += new Vector2(0f, effectivespeed);
         }
-        if(down && transform.position.y > -MAX_POS_Y) {
-            transform.Translate(0f, -effectivespeed, 0f);
+        if(down) {
+            moveVector += new Vector2(0f, -effectivespeed);
         }
-        if(left && transform.position.x > -MAX_POS_X) {
-            transform.Translate(-effectivespeed, 0f, 0f);
+        if(left) {
+            moveVector += new Vector2(-effectivespeed, 0f);
         }
-        if(right && transform.position.x < MAX_POS_X) {
-            transform.Translate(effectivespeed, 0f, 0f);
+        if(right) {
+            moveVector += new Vector2(effectivespeed, 0f);
         }
+
+        //move 
+        myRigidBody2D.MovePosition(myRigidBody2D.position + moveVector * Time.fixedDeltaTime);
 
         //flip sprite 
         if(right) {
