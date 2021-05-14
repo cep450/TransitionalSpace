@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 8996932449934055171}
   - component: {fileID: 4194989180189982358}
   - component: {fileID: 3106493292829301580}
+  - component: {fileID: 4664648672611558386}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -145,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
+  target: {fileID: 4664648672611558386}
 --- !u!61 &3106493292829301580
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -171,6 +173,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4664648672611558386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996932449934055173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9af353995ab86419ffae7da1ae226a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: 
+  talkToNode: 
+  scriptToLoad: {fileID: 0}
 --- !u!1 &8996932450182146980
 GameObject:
   m_ObjectHideFlags: 0

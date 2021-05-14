@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Yarn.Unity {
 public class DialogueStart : MonoBehaviour
 {
 
@@ -13,6 +14,9 @@ public class DialogueStart : MonoBehaviour
     bool indicatorDisplayed = false;
 
 
+    public MyNPC target;
+    
+
     /* Start is called before the first frame update
     void Start()
     {
@@ -22,6 +26,11 @@ public class DialogueStart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //don't do this if we're talking to someone
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true) {
+            return;
+        }
 
         //are they in our circle?
         if(Vector3.Distance(playerTransform.position, transform.position) <= playerNearbyRadius){
@@ -43,11 +52,17 @@ public class DialogueStart : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.E)) {
 
                 //stop showing the indicator
-                //TODO
+                Renderer [] renderers = GetComponentsInChildren<Renderer>();
+                foreach(Renderer r in renderers) {
+                    if(r.tag.Equals("TalkIndicator")) {
+                        r.enabled = false;
+                    }
+                }
+                indicatorDisplayed = false;
 
                 //open up the dialogue window and start!
                 Debug.Log("hello!");
-                //TODO 
+                FindObjectOfType<DialogueRunner> ().StartDialogue (target.talkToNode);
 
             }
         } else {
@@ -66,4 +81,6 @@ public class DialogueStart : MonoBehaviour
 
         }
     }
+}
+
 }

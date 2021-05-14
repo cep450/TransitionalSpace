@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+namespace Yarn.Unity {
 public class PlayerMovement : MonoBehaviour
 {
 
     //code initially copied from flatgame project
 
-    static float SPEED = 3f;
+    static float SPEED = 3.5f;
     static float SPEED_DIAG = SPEED * Mathf.Sin(Mathf.PI / 4) + 0.002f;
 
     static Vector3 faceright = new Vector3(1, 1, 1);
@@ -40,6 +42,11 @@ public class PlayerMovement : MonoBehaviour
 
         //don't rotate.... wtf
         transform.rotation = noRotation;
+
+        //don't allow movement if we're in dialogue 
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true) {
+            return;
+        }
 
         //only check key once
         up = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W);
@@ -86,4 +93,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+}
+
 }

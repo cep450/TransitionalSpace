@@ -9,11 +9,11 @@ public class CameraFollow : MonoBehaviour
 
 
     //stop moving here
-    float negMax = -10f;
-    float posMax = 10f;
+    float negMax = -6.9f;
+    float posMax = 32.1f;
 
     //deadzone size
-    float deadzone = 2.5f;
+    float deadzone = 2.4f;
     
     float lastPlayerPosition;
     float playerPositionDiff = 0f;
