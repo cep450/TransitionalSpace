@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3472699901410127512
-    second: chars_sheet_6_0
+    second: talk_indicator
   - first:
       213: -5183600606988717044
-    second: chars_sheet_6_1
+    second: space_1
   - first:
       213: 7802712874080476739
-    second: chars_sheet_6_2
+    second: space_2
   - first:
       213: 3279162953935303691
     second: chars_sheet_6_3
@@ -149,7 +149,7 @@ TextureImporter:
         width: 339
         height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +170,7 @@ TextureImporter:
         width: 608
         height: 862
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,6 +178,69 @@ TextureImporter:
       bones: []
       spriteID: 11ec799cc06144720800000000000000
       internalID: 2829410710073101841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talk_indicator
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 719
+        width: 185
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ea5134922813030800000000000000
+      internalID: 3472699901410127512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 895
+        width: 328
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0430fa36b62018b0800000000000000
+      internalID: -5183600606988717044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 895
+        width: 328
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e1fe7b40ec84c60800000000000000
+      internalID: 7802712874080476739
       vertices: []
       indices: 
       edges: []
