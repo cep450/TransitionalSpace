@@ -9,7 +9,7 @@ Eve: Yea!! I saw it with some friends last week, it was awesome
     <<setsprite SpriteSwitcher Castor>>
 Castor: You remember when the thing happened with the explosion on the train and then that guy was like “no you can’t kill me what if I become the train”
 Castor: And we were all like WOAH YOU CAN DO THAT???
-Castor:And he was like uh huh of course I’m a demon and my brain almost exploded
+Castor: And he was like uh huh of course I’m a demon and my brain almost exploded
     <<setsprite SpriteSwitcher NOTHING>>
 Sage and Eve: (both laugh)
     <<setsprite SpriteSwitcher Sage>>
