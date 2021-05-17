@@ -912,7 +912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7, y: 58.9, z: -11}
+  m_LocalPosition: {x: -6.7, y: 59.78, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1721,7 +1721,7 @@ GameObject:
   - component: {fileID: 1736738749}
   - component: {fileID: 1736738751}
   m_Layer: 5
-  m_Name: Image
+  m_Name: SpriteSwitcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1765,7 +1765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -301399678118160429, guid: d4c385cd2dd6f2a4eb84c6794f46b85e,
+  m_Sprite: {fileID: 8126443836680682420, guid: 52b2d729f8c08c848b1d8f3258248f15,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1817,6 +1817,9 @@ MonoBehaviour:
       type: 3}
   - name: Steele
     sprite: {fileID: 6923980263207385448, guid: eae5f7a6d61b6fe409c69e9d839aa5f6,
+      type: 3}
+  - name: NOTHING
+    sprite: {fileID: 8126443836680682420, guid: 52b2d729f8c08c848b1d8f3258248f15,
       type: 3}
 --- !u!1 &1780190380
 GameObject:
@@ -2329,7 +2332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116145286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.87, y: 58.920002, z: 0}
+  m_LocalPosition: {x: -6.69, y: 59.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
