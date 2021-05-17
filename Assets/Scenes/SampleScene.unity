@@ -229,13 +229,13 @@ PrefabInstance:
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Eve_Sage_Castor
+      value: DEMOEveSageCastor
       objectReference: {fileID: 0}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 102ef883e32d015409b36ada6fd3cf8f,
+      objectReference: {fileID: 2480198943629176163, guid: 655f63b149e61054eae6ab4331f59261,
         type: 3}
     - target: {fileID: 5237821504756234493, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1261,7 +1261,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 7b861796fd981f446829e32df506c812,
+      objectReference: {fileID: 2480198943629176163, guid: 048ac2d3a7a6ee442baf88270c3c3924,
         type: 3}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1271,7 +1271,7 @@ PrefabInstance:
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Geneva
+      value: PLACEHOLDER
       objectReference: {fileID: 0}
     - target: {fileID: 5642173999606606094, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1545,7 +1545,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 88354a8a8d66d8542968f4d6b6d73666,
+      objectReference: {fileID: 2480198943629176163, guid: 048ac2d3a7a6ee442baf88270c3c3924,
         type: 3}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1555,7 +1555,7 @@ PrefabInstance:
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Asher_Steele
+      value: PLACEHOLDER
       objectReference: {fileID: 0}
     - target: {fileID: 5642173999606606094, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -2083,11 +2083,11 @@ RectTransform:
   m_Father: {fileID: 5935829474207620774}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.5, y: 87}
-  m_SizeDelta: {x: 471, y: 577}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 290.9, y: 404.26}
+  m_SizeDelta: {x: 11.679966, y: 15.471291}
+  m_Pivot: {x: 0.5, y: 0.5000001}
 --- !u!114 &1736738749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 8126443836680682420, guid: 52b2d729f8c08c848b1d8f3258248f15,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3130,12 +3130,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 30
-    m_Right: 60
-    m_Top: 35
-    m_Bottom: 20
+    m_Left: 35
+    m_Right: 80
+    m_Top: 40
+    m_Bottom: 40
   m_ChildAlignment: 0
-  m_Spacing: 5
+  m_Spacing: 6
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -4638,12 +4638,12 @@ PrefabInstance:
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 735b2e726340ee14ca1b808ff24aa395,
+      objectReference: {fileID: 2480198943629176163, guid: 048ac2d3a7a6ee442baf88270c3c3924,
         type: 3}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Knight
+      value: PLACEHOLDER
       objectReference: {fileID: 0}
     - target: {fileID: 5642173999606606094, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
