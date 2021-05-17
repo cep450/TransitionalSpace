@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
     Quaternion noRotation; 
 
+    public PlayerAnimation animationObject;
+
     void Start() {
 
         myRigidBody2D = gameObject.GetComponent<Rigidbody2D>();
@@ -56,7 +58,11 @@ public class PlayerMovement : MonoBehaviour
 
         //if no keys are pressed we don't need to do any of this 
         if(!(up || down || left || right)) {
+            animationObject.changePlayerWalk(false);
             return;
+        } else {
+            //if we are tho, make sure our sprite is walking 
+            animationObject.changePlayerWalk(true);
         }
 
         //same speed when diagonal

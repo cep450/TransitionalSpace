@@ -22,12 +22,6 @@ public class TitleScript : MonoBehaviour
     float transparencyCounter = 1f;
     float transparencyDecreasePerTick = 0.02f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
