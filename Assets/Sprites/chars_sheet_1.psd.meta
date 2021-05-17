@@ -132,27 +132,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chars_sheet_1_0
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 734
-        width: 684
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92c5e609930248cb0800000000000000
-      internalID: -4862726266044916695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: chars_sheet_1_1
       rect:
         serializedVersion: 2
@@ -160,8 +139,8 @@ TextureImporter:
         y: 0
         width: 471
         height: 577
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.44525415, y: 0.0559069}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,8 +160,8 @@ TextureImporter:
         y: 1
         width: 519
         height: 631
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54968286, y: 0.11689797}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

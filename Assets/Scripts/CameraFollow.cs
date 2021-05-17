@@ -7,7 +7,6 @@ public class CameraFollow : MonoBehaviour
 
     //camera will only move side to side, and will stop at certain values.
 
-
     //stop moving here
     float negMax = -6.9f;
     float posMax = 32.1f;
