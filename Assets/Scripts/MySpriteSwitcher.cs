@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 namespace Yarn.Unity.Example {
 
-    //[RequireComponent (typeof (SpriteRenderer))]
     /// Attach SpriteSwitcher to game object
     public class MySpriteSwitcher : MonoBehaviour {
 
@@ -38,6 +37,7 @@ namespace Yarn.Unity.Example {
             //GetComponent<SpriteRenderer>().sprite = s;
             image.sprite = s;
             image.SetNativeSize();
+
         }
     }
 

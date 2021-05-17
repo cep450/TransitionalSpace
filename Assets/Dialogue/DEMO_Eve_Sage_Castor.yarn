@@ -1,0 +1,88 @@
+﻿title: DEMOEveSageCastor
+tags:
+---
+
+    <<setsprite SpriteSwitcher Castor>>
+Castor: The ending of that movie with the thing was crazy!!!
+    <<setsprite SpriteSwitcher Eve>>
+Eve: Yea!! I saw it with some friends last week, it was awesome
+    <<setsprite SpriteSwitcher Castor>>
+Castor: You remember when the thing happened with the explosion on the train and then that guy was like “no you can’t kill me what if I become the train”
+Castor: And we were all like WOAH YOU CAN DO THAT???
+Castor:And he was like uh huh of course I’m a demon and my brain almost exploded
+    <<setsprite SpriteSwitcher NOTHING>>
+Sage and Eve: (both laugh)
+    <<setsprite SpriteSwitcher Sage>>
+Sage: They basically followed the manga of this super great anime that we all know and love but we’re all unsure if we legally can say the name of to a T
+    <<setsprite SpriteSwitcher Eve>>
+Eve: It was really good!!
+    <<setsprite SpriteSwitcher NOTHING>>
+Sage, Eve, and Castor: (look over to you)
+    <<setsprite SpriteSwitcher Eve>>
+Eve: Oh, hey there!
+
+-> hi
+-> hey 
+-> what's up
+
+Eve: You're Geneva's friend right? 
+
+-> nod 
+-> yea! 
+-> yup
+
+    <<setsprite SpriteSwitcher Sage>>
+Sage: It's nice to finally meet you! We were just talking about the new *insert anime name here* movie that came out and losing our minds about it. 
+    <<setsprite SpriteSwitcher Eve>>
+Eve: haha yea! I can't wait until the new season comes out. 
+    <<setsprite SpriteSwitcher Sage>>
+Sage: Aw man I remember how hard it was to like anime in middle school haha.
+
+-> please dont make me remember... 
+-> yea! 
+-> ...
+
+    <<setsprite SpriteSwitcher Castor>>
+Castor: Oof, middle school. Gives me the heebejeebies. 
+    <<setsprite SpriteSwitcher Eve>>
+Eve: It's crazy to think how different we all are compared to middle school. Gosh, if younger me saw me right now they'd probably freak.
+    <<setsprite SpriteSwitcher Sage>>
+Sage: Me too!!
+    <<setsprite SpriteSwitcher Eve>>
+Eve: Man, I was so confused as a kid, I hardcore rejected shit like hygiene because it 
+    <<setsprite SpriteSwitcher Sage>>
+Sage: HAHA I hate how hygiene was equal to femininity, no wonder the halls smelled like constant shit in middle school
+    <<setsprite SpriteSwitcher Castor>>
+Castor: Yea! Like everyone was afraid of acting “gay” or doing anything remotely feminine
+    <<setsprite SpriteSwitcher Sage>>
+Sage: yea that definitely shows how fucked up the “gender roles” were as kids. That definitely didnt help later in life before I realized I’m nonbinary.
+    <<setsprite SpriteSwitcher Eve>>
+Eve: Honestly!! It took me a long time to see it as more of a void rather than the binary
+Eve: Masculinity and femininity are not opposites, but complimentary
+anyone, regardless of gender identity, can be masculine, feminine, both, or neither
+Eve:One thing I always hear is like “how can you be a transwoman and a tomboy, or a transman and be feminine?”
+Eve: but that's presentation. if a cis woman can be a tomboy, so can a transwoman, and the same with cis and trans men
+    <<setsprite SpriteSwitcher Castor>>
+Castor: exactly! Many people think pronouns = gender. And I ID as nonbinary and I tell people “any pronoun is okay!” but based on how I'm presenting is how they gauge which pronoun to use. 
+Castor: I mean im fine with that but I think me ID-ing as nonbinary is more like I want you to be confused when you look at me LMAO
+Castor: But not like androgynous. Literally just: oh you can be femme or masc, he/she, whateva
+Castor:and it's also why I started using xe/xem pronouns because I kinda like em :)))
+    <<setsprite SpriteSwitcher Sage>>
+Sage: You're so valid! 
+Sage: I used to worry so much about what I identified with. Shit's still evolving, you grow as a person and so do the labels you choose, if you want them.
+    <<setsprite SpriteSwitcher Eve>>
+Eve: Honestly all of these standards are completely manmade and therefore inherently like mush
+Eve: We gotta learn to separate identity and presentation since those are two different things
+    <<setsprite SpriteSwitcher Sage>>
+Sage: all in all, it's just doing what makes you happy and feel at home with yourself. At the end of the day, it's just you and yourself.
+    <<setsprite SpriteSwitcher Castor>>
+Castor: ah, gender. 
+Castor: But anyway super happy to meet you! Feel free to come back here to chat whenever ya like!
+    <<setsprite SpriteSwitcher Eve>>
+Eve: bye, pal. 
+    <<setsprite SpriteSwitcher Sage>>
+Sage: See, ya.
+
+Devs: THANK YOU FOR PLAYING OUR DEMO <3
+
+===

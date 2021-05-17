@@ -229,13 +229,13 @@ PrefabInstance:
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Eve_Sage_Castor
+      value: DEMOEveSageCastor
       objectReference: {fileID: 0}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 102ef883e32d015409b36ada6fd3cf8f,
+      objectReference: {fileID: 2480198943629176163, guid: 655f63b149e61054eae6ab4331f59261,
         type: 3}
     - target: {fileID: 5237821504756234493, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1261,7 +1261,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 7b861796fd981f446829e32df506c812,
+      objectReference: {fileID: 2480198943629176163, guid: 048ac2d3a7a6ee442baf88270c3c3924,
         type: 3}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1271,7 +1271,7 @@ PrefabInstance:
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Geneva
+      value: PLACEHOLDER
       objectReference: {fileID: 0}
     - target: {fileID: 5642173999606606094, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1545,7 +1545,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 88354a8a8d66d8542968f4d6b6d73666,
+      objectReference: {fileID: 2480198943629176163, guid: 048ac2d3a7a6ee442baf88270c3c3924,
         type: 3}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -1555,7 +1555,7 @@ PrefabInstance:
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Asher_Steele
+      value: PLACEHOLDER
       objectReference: {fileID: 0}
     - target: {fileID: 5642173999606606094, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 8126443836680682420, guid: 52b2d729f8c08c848b1d8f3258248f15,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4638,12 +4638,12 @@ PrefabInstance:
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 735b2e726340ee14ca1b808ff24aa395,
+      objectReference: {fileID: 2480198943629176163, guid: 048ac2d3a7a6ee442baf88270c3c3924,
         type: 3}
     - target: {fileID: 4664648672611558386, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
       propertyPath: talkToNode
-      value: Knight
+      value: PLACEHOLDER
       objectReference: {fileID: 0}
     - target: {fileID: 5642173999606606094, guid: b938511d21484f042be584e704aa2cc7,
         type: 3}
